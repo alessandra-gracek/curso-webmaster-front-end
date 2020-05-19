@@ -37,3 +37,13 @@ ul li:nth-child(3){
 .box div:not(.one){
     background-color: gold;
 }
+p:empty{
+    background-color: orange;
+    width: 300px;
+    height: 300px;
+}
+p::after{
+    content: ' Alessandra';
+    color: red;
+    margin: 5px;
+}
