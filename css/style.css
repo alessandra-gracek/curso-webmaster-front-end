@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+/*
+ul{
+    list-style-position: inside;
+}
+ul li:nth-of-type(2){
+    color: red;
+}
+ul li:nth-child(3){
+    color: sienna;
+}
+*/
+.box{
+    width: 100%;
+}
+.item{
+    box-sizing: border-box;
+    width: 33.3%;
+    height: 400px;
+    float: left;
+    background-color: red;
+    border: 1px solid black;
+
+}
+.box div:last-of-type{
+    background-color: rgb(12, 51, 53);
+}
+.box div:last-of-type p{
+    color: rgb(240, 238, 231);
+}
