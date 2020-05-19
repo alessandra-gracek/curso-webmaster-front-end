@@ -19,7 +19,7 @@ ul li:nth-child(3){
 .box{
     width: 100%;
 }
-.item{
+.box > div{
     box-sizing: border-box;
     width: 33.3%;
     height: 400px;
@@ -33,4 +33,7 @@ ul li:nth-child(3){
 }
 .box div:last-of-type p{
     color: rgb(240, 238, 231);
+}
+.box div:not(.one){
+    background-color: gold;
 }
