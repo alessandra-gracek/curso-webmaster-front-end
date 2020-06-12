@@ -44,6 +44,6 @@ p:empty{
 }
 p::after{
     content: ' Alessandra';
-    color: red;
+    color: green;
     margin: 5px;
 }
