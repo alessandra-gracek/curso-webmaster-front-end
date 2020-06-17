@@ -138,6 +138,7 @@ html,body{
 }
 .container-2 p{
     width: 100%;
+    max-width: 780px;
     text-align: justify;
     margin: 15px 0;
     display: inline-block;
@@ -176,7 +177,7 @@ html,body{
 .container-single p{
     text-align: justify;
     display: inline-block;
-    padding: 10px 25px;
+    padding: 10px;
     font-weight: normal;
     color: black;
 }
@@ -194,4 +195,83 @@ html,body{
 .footer p{
     margin-top: 8px;
     color: #888888;
+}
+@media screen and (max-width: 1024px){
+    .header{
+        height: auto;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
+    .header img{
+        margin: 0;
+    }
+    .container-banner{
+        width: 100%;
+        padding: 40px 2%;
+        height: auto;
+        text-align: center;
+        
+    }
+    .form{
+        max-width: 400px;
+        padding: 10px;
+        width: 60%;
+        height: 100%;
+        float: right;
+        top: 0;
+        
+    }
+    .container-list{
+        float:left;
+        width: 40%;
+        height: auto;
+        background-color:rgba(33,35,67,0.7);
+        padding: 30px 0;
+        display: inline-block;
+        margin-top: 0;
+    }
+    .input-container input[type=text]{
+        width: 100%;
+        height: 55px;
+        
+    }
+    
+    .form input[type=submit]{
+        max-width: 280px;
+        height: 56px;
+        width: 100%;
+       
+      
+    }
+    .form input[type=submit]:hover{
+        background-color: #323665;
+    }
+}
+@media screen and (max-width: 768px){
+    .container-list{
+        margin-top: 0;
+        float: none;
+        display: inline-block;
+        width: 100%;
+    }
+    .form{
+        float: none;
+        display: inline-block;
+        width: 90%;
+        margin-top: 30px;
+    }
+    .container-single{
+        display: inline-block;
+        float: none;
+        width: 100%;
+        max-width: 600px;
+        padding: 30px 0;
+    
+    }
+    .container-2{
+        padding=right: 4%;
+        padding-left: 4%;
+      
+
 }
