@@ -27,11 +27,8 @@ header nav li{
 header li a{
     text-decoration: none;
     color: white;
-}
-nav a{
     padding: 23px;
 }
-
 nav a:hover{
     background: #dddddd;
     color: black;
